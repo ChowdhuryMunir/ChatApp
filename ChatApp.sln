@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ChatApp", ".", "{12DF5BB6-8F81-46E8-8B98-7D8A407DB92D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50521"
+		Debug.AspNetCompiler.PhysicalPath = "..\ChatApp\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50521\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50521"
+		Release.AspNetCompiler.PhysicalPath = "..\ChatApp\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50521\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50521"
+		SlnRelativePath = "..\ChatApp\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12DF5BB6-8F81-46E8-8B98-7D8A407DB92D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DF5BB6-8F81-46E8-8B98-7D8A407DB92D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C74D4BA2-7B03-44BE-8A03-71377797ECE0}
+	EndGlobalSection
+EndGlobal

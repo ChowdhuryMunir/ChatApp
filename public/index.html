@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf‐8" />
+    <title>Chat App</title>
+    <script src="jquery‐3.3.1.min.js"></script>
+    <script src="socket.io.js"></script>
+    <script src="MyScript.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:rgb(27 53 90);
+        }
+
+        #main {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+        }
+
+        #container {
+            width: 60%;
+            margin-right: 20px;
+            background-color:black;
+            border: 1px solid #ddD;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        #user_area {
+            width: 20%;
+            background-color: rgb(130, 193, 240);
+            border: 2px solid black;
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        #chat_area {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            height: 300px;
+            overflow-y: auto;
+            background-color: rgb(130, 193, 240);
+        }
+
+        #message {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        #send {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(130, 193, 240);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            #send:hover {
+                background-color: darkcyan;
+            }
+
+        #users {
+            list-style-type:none;
+            padding: 0;
+        }
+
+            #users li {
+                padding: 5px;
+                border-bottom: 1px solid #ddd;
+            }
+
+        #output_msg div {
+            padding: 5px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background-color: #92a8b4;
+            border-left: 5px solid #31708f;
+        }
+        h2{
+            color:ghostwhite;
+        }
+        h1{
+            color:black;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="container">
+            <h2>Messages</h2>
+            <div id="chat_area">
+                <div id="feedback"></div>
+                <div id="output_msg"></div>
+            </div>
+
+            <div id="input">
+                <input id="message" type="text" placeholder="Write Your Message" style="width:700px;"/>
+            </div>
+
+            <div id="input">
+                <input type="file" id="imageInput" accept="image/*" /> <!-- Image input field -->
+            </div>
+
+            <button id="send">Send</button>
+        </div>
+        <div id="user_area">
+            <h1>Chat Club</h1>
+            <h3>Online Users</h3>
+            <ul id="users"></ul>
+        </div>
+
+
+    </div>
+</body>
+</html>
