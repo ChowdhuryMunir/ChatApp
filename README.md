@@ -5,7 +5,6 @@ This repository contains a real-time chat application built using Node.js. The a
 ## Features
 
 - **Real-Time Messaging**: Send and receive messages instantly using WebSocket technology.
-- **User Authentication**: Basic user authentication to manage user sessions.
 - **Chat Rooms**: Create and join different chat rooms for organized conversations.
 - **Message History**: Persistent message storage to view previous conversations.
 - **User Interface**: Simple and intuitive web-based interface for ease of use.
